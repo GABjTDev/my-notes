@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --backgroundMenu: #E4E4E4;
+}
+
+
+body{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: all 1s ease;
+}
+
+
+a.active ~ div{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+a.active ~ div::-webkit-scrollbar {
+    width: 5px;
+}
+
+a.active ~ div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: none;
+}
