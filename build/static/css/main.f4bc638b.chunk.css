@@ -1,0 +1,2 @@
+*,:after,:before{padding:0;margin:0;box-sizing:border-box;scroll-behavior:smooth}:root{--backgroundMenu:#e4e4e4}body{font-family:Roboto;font-size:18px;font-style:normal;font-weight:300;line-height:25px;letter-spacing:0;text-align:left;transition:all 1s ease}a.active~div{max-height:200px;overflow-y:scroll}a.active~div::-webkit-scrollbar{width:5px}a.active~div::-webkit-scrollbar-thumb{background-color:#a9a9a9;outline:none}
+/*# sourceMappingURL=main.f4bc638b.chunk.css.map */
